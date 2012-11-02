@@ -1,0 +1,146 @@
+body{
+	max-width:1000px;
+	background-image:  url("../images/white_state.png");
+	background-repeat:repeat-y;
+	background-position:left;
+	margin-left:15%;
+	font-family: 'Karla',sans-serif;
+}
+
+.top{
+	background-color: rgba(14,67,80,0.7);
+	border:10px solid #023542;
+	padding:10px;
+	
+}
+
+h1{
+	background:rgba(255,255,255,0.9);
+	text-align:center;
+	border:2px solid #023542; 
+	padding:2%;
+	margin:0;
+}
+
+ul{
+margin-left:3.9%;
+}
+	
+ul li{
+	display:inline;
+	text-align:center;
+	text-decoration:none;
+	outline:none;
+	margin:2%;
+}
+
+.overview{
+	max-width:100%;
+	width:400px;
+	background:rgba(14,67,80,0.7);
+	font-family: 'Cinzel', serif;
+	border: 10px solid #023542;
+	padding:5px;
+	margin:2% 0;
+	border-radius:5px 5px 5px;
+	float:right;
+}
+
+#building{
+	margin-left:13%;
+	border: 3px solid #023542;
+}
+
+#dep{
+	background:rgba(255,255,255,0.9);
+	text-align:center;
+	border-radius:3px 3px 3px;
+}
+
+#ph{
+	background:#fff;
+	text-indent: 1em;
+	padding:1%;
+	border-radius:5px 5px 5px;
+}
+
+.headlines{
+	max-width:100%;
+	width:400px;
+	background:rgba(14,67,80,0.7);
+	font-family: 'Cinzel', serif;
+	border: 10px solid #023542;
+	padding:5px;
+	margin:2% 0;
+	border-radius:5px 5px 5px;
+	float:left;
+	float:clear;
+}
+
+#yellow{
+	max-width:100%;
+	width:380px;
+	margin-left:2%;
+	border: 3px solid #023542;
+}
+
+/*.list{
+	display:list;
+	text-align:center;
+	text-decoration:none;
+	padding:5%;
+	
+}*/
+
+.patrol{
+	max-width:100%;
+	width:1000px;
+	background:rgba(14,67,80,0.7);
+	font-family: 'Cinzel', serif;
+	border: 10px solid #023542;
+	margin:2% 0;
+	padding:1.5%;
+	border-radius:5px 5px 5px;
+}
+
+#flp{
+	margin-left:35%;
+}
+
+#police{
+	max-width:100%;
+	background:rgba(255,255,255,0.9);
+	border:2px solid #023542;
+	text-align:center;
+	padding:2%;
+	margin:2%;
+}
+	
+
+#team{
+	max-width:100%;
+	width:600px;
+	margin-left:20%;
+	border:3px solid #023542;
+}
+
+.bottom{
+	width:1000px;
+	background-color: rgba(14,67,80,0.7);
+	border:10px solid #023542;
+	padding:14px;
+	
+ul:hover{
+	background-color:#3892a9;
+	border:2px solid rgba(14,67,80, );
+}
+
+
+
+/*--------------------color swatch---------------*/
+
+light blue #04cdff rgba( 4, 205, 255,)
+mid gray blue #3892a9
+turkish #0e4350 rgba(14,67,80, )
+dark turkish #023542
+/*------------------------------------------------*/
