@@ -8,9 +8,45 @@ body{
 }
 
 .top{
+	max-width:100%;
+	width:980px;
 	background-color: rgba(14,67,80,0.7);
 	border:10px solid #023542;
+	border-radius:5px 5px 5px;
 	padding:10px;
+	margin:2.5% 0  0 0;
+	
+}
+
+.images{
+	max-width:100%;
+	width:980px;
+	background-color: rgba(14,67,80,0.7);
+	border:10px solid #023542;
+	border-radius:5px 5px 5px;
+	padding:10px;
+	margin:2.5% 0  0 0;
+}
+
+.set{
+	max-width:100%;
+	width:950px;
+	background:rgba(14,67,80,0.7);
+	font-family: 'Cinzel', serif;
+	border: 10px solid #023542;
+	padding:5px;
+	margin:2% 0;
+	border-radius:5px 5px 5px;
+}
+
+.img{
+	border:4px solid #022730;
+	border-radius: 3px 3px 3px;
+	margin:1.5%;
+}
+
+.img:hover{
+	border:4px solid #04cdff;
 	
 }
 
@@ -21,6 +57,24 @@ h1{
 	padding:2%;
 	margin:0;
 }
+
+h3{
+	background:rgba(255,255,255,0.9);
+	text-align:center;
+	border:2px solid #023542; 
+	padding:2%;
+	margin:0;
+}
+
+#info{
+	max-width:100%;
+	background-color: rgba(255,255,255,0.9);
+	border:5px solid #023542;
+	border-radius:5px 5px 5px;
+	padding:10px;
+	margin:2.5% 0  0 0;
+}
+
 
 ul{
 margin-left:3.9%;
@@ -45,6 +99,24 @@ ul li{
 	border-radius:5px 5px 5px;
 	float:right;
 }
+
+.list{
+	max-width:100%;
+	width:500px;
+	background:rgba(14,67,80,0.7);
+	font-family: 'Cinzel', serif;
+	border: 10px solid #023542;
+	padding:10px;
+	margin:4% 0 5% 22%;
+	border-radius:5px 5px 5px;
+}
+
+.list ol{
+	background:#fff;
+	border:5px solid #023542;
+}
+
+
 
 #building{
 	margin-left:13%;
@@ -94,12 +166,12 @@ ul li{
 
 .patrol{
 	max-width:100%;
-	width:1000px;
+	width:980px;
 	background:rgba(14,67,80,0.7);
 	font-family: 'Cinzel', serif;
 	border: 10px solid #023542;
 	margin:2% 0;
-	padding:1.5%;
+	padding:1%;
 	border-radius:5px 5px 5px;
 }
 
@@ -112,8 +184,8 @@ ul li{
 	background:rgba(255,255,255,0.9);
 	border:2px solid #023542;
 	text-align:center;
-	padding:2%;
-	margin:2%;
+	padding:.1%;
+	margin:.5% 0;
 }
 	
 
@@ -125,9 +197,11 @@ ul li{
 }
 
 .bottom{
-	width:1000px;
+	max-width:100%;
+	width:973px;
 	background-color: rgba(14,67,80,0.7);
 	border:10px solid #023542;
+	border-radius:5px 5px 5px;
 	padding:14px;
 	
 ul:hover{
@@ -137,10 +211,11 @@ ul:hover{
 
 
 
-/*--------------------color swatch---------------*/
+/*--------------------color swatch---------------
 
 light blue #04cdff rgba( 4, 205, 255,)
 mid gray blue #3892a9
 turkish #0e4350 rgba(14,67,80, )
 dark turkish #023542
-/*------------------------------------------------*/
+xtra dark turkish #022730
+------------------------------------------------*/
