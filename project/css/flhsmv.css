@@ -1,7 +1,6 @@
 body{
 	max-width:1000px;
 	background-image:  url("../images/white_state.png");
-	background-repeat:repeat-y;
 	background-position:left;
 	margin-left:15%;
 	font-family: 'Karla',sans-serif;
@@ -20,7 +19,7 @@ body{
 	-khtml-border-radius:5px 5px 5px;
 	padding:10px;
 	margin:2.5% 0  0 0;
-	
+
 }
 
 .images{
@@ -55,6 +54,7 @@ body{
 }
 
 .img{
+	max-width:100%;
 	border:4px solid #022730;
 	border-radius: 3px 3px 3px;
 	-ms-border-radius:3px 3px 3px;
@@ -67,7 +67,7 @@ body{
 
 .img:hover{
 	border:4px solid #04cdff;
-	
+
 }
 
 h1{	
@@ -116,6 +116,7 @@ h1{
 }
 
 .way img{
+	max-width:100%;
 	margin:2% 1% 2% 1%;
 	border:3px solid #023542;
 	border-radius:5px 5px 5px;
@@ -139,7 +140,7 @@ h3{
 ul{
 margin-left:3.9%;
 }
-	
+
 ul li{
 	display:inline;
 	text-align:center;
@@ -215,6 +216,7 @@ ul li{
 
 
 #building{
+	max-width:100%;
 	margin-left:13%;
 	border: 5px solid #023542;
 	border-radius:5px 5px 5px;
@@ -226,6 +228,7 @@ ul li{
 }
 
 #dep{
+	max-width:100%;
 	background:rgba(255,255,255,0.9);
 	text-align:center;
 	border-radius:3px 3px 3px;
@@ -236,7 +239,8 @@ ul li{
 	-khtml-border-radius:3px 3px 3px;
 }
 
-#ph{
+.ph{
+	max-width:100%;
 	background:#fff;
 	text-indent: 1em;
 	padding:1%;
@@ -266,7 +270,7 @@ ul li{
 	float:clear;
 }
 
-#gator{
+#seatbelt{
 	max-width:100%;
 	width:380px;
 	margin-left:2%;
@@ -316,7 +320,7 @@ ul li{
 	padding:.1%;
 	margin:.5% 0;
 }
-	
+
 
 #patrol{
 	max-width:100%;
@@ -332,7 +336,7 @@ ul li{
 
 .bottom{
 	max-width:100%;
-	width:973px;
+	width:967px;
 	background-color: rgba(14,67,80,0.7);
 	border:10px solid #023542;
 	border-radius:5px 5px 5px;
@@ -341,11 +345,252 @@ ul li{
 	-web-border-radius:5px 5px 5px;
 	-o-border-radius:5px 5px 5px;
 	-khtml-border-radius:5px 5px 5px;
-	padding:14px;
-	
-ul:hover{
+	padding:8.9px;
+}
+
+.bottoma{
+	max-width:100%;
+	width:980px;
+	background-color: rgba(14,67,80,0.7);
+	border:10px solid #023542;
+	border-radius:5px 5px 5px;
+	-ms-border-radius:5px 5px 5px;
+	-moz-border-radius:5px 5px 5px;
+	-web-border-radius:5px 5px 5px;
+	-o-border-radius:5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px;
+	margin-top:2%;
+	padding:2px;
+}
+
+.form{
+	max-width:100%;
+	width:500px;
+	background-color: rgba(14,67,80,0.7);
+	border:10px solid #023542;
+	border-radius:5px 5px 5px;
+	-ms-border-radius:5px 5px 5px;
+	-moz-border-radius:5px 5px 5px;
+	-web-border-radius:5px 5px 5px;
+	-o-border-radius:5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px;
+	padding:10px;
+	margin:2.5% 0  0 0;
+
+}
+
+h5{
+	padding:0;
+	float:left;
+}
+
+.like{
+	max-width:100%;
+	display:inline;
+	margin:0 0 0 80%;
+}
+
+.set:hover{
 	background-color:#3892a9;
-	border:2px solid rgba(14,67,80, );
+	border:2px solid rgba(14,67,80,0.9);
+}
+
+ol{
+	list-style-type:none;
+	text-decoration:none;
+	text-align:center;
+}
+
+#sun{
+	max-width:100%;
+	border:10px solid rgba(14,67,80,0.9);
+	border-radius:5px 5px 5px;
+	-ms-border-radius:5px 5px 5px;
+	-moz-border-radius:5px 5px 5px;
+	-web-border-radius:5px 5px 5px;
+	-o-border-radius:5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px;
+	margin-left:20%;
+}
+
+#sun:hover{
+	border:10px solid #04cdff;
+}
+
+#tag{
+	max-width:100%;
+	width:500px;
+	border:10px solid rgba(14,67,80,0.9);
+	border-radius:5px 5px 5px;
+	-ms-border-radius:5px 5px 5px;
+	-moz-border-radius:5px 5px 5px;
+	-web-border-radius:5px 5px 5px;
+	-o-border-radius:5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px;
+	margin-left:22.8%;
+}
+
+#tag:hover{
+	border:10px solid #04cdff;
+}
+
+#beach{
+	max-width:100%;
+	width:700px;
+	height:300px;
+	border:10px solid rgba(14,67,80,0.9);
+	border-radius:5px 5px 5px;
+	-ms-border-radius:5px 5px 5px;
+	-moz-border-radius:5px 5px 5px;
+	-web-border-radius:5px 5px 5px;
+	-o-border-radius:5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px;
+	margin-left:12.7%;
+	margin-top:1%;
+}
+
+#beach:hover{
+	border:10px solid #04cdff;
+}
+
+.pha{
+	max-width:100%;
+	background:#fff;
+	width400px
+	text-indent: 1em;
+	padding:1%;
+	border-radius:5px 5px 5px;
+	-ms-border-radius:5px 5px 5px;
+	-moz-border-radius:5px 5px 5px;
+	-web-border-radius:5px 5px 5px;
+	-o-border-radius:5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px;
+}	
+
+#colonel{
+	max-width:100%;
+	width:200px;
+	border:10px solid rgba(14,67,80,0.9);
+	border-radius:5px 5px 5px;
+	-ms-border-radius:5px 5px 5px;
+	-moz-border-radius:5px 5px 5px;
+	-web-border-radius:5px 5px 5px;
+	-o-border-radius:5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px;
+	margin-left:38.7%;
+	margin-top:1%;
+}
+
+#colonel:hover{
+	border:10px solid #04cdff;
+}
+
+#seal{
+	max-width:100%;
+	width:200px;
+	border:10px solid rgba(14,67,80,0.9);
+	border-radius:5px 5px 5px;
+	-ms-border-radius:5px 5px 5px;
+	-moz-border-radius:5px 5px 5px;
+	-web-border-radius:5px 5px 5px;
+	-o-border-radius:5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px;
+	margin-left:38.7%;
+	margin-top:1%;
+}
+
+#seal:hover{
+	border:10px solid #04cdff;
+}
+
+#team{
+	max-width:100%;
+	width:700px;
+	border:10px solid rgba(14,67,80,0.9);
+	border-radius:5px 5px 5px;
+	-ms-border-radius:5px 5px 5px;
+	-moz-border-radius:5px 5px 5px;
+	-web-border-radius:5px 5px 5px;
+	-o-border-radius:5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px;
+	margin-left:12.9%;
+	margin-top:1%;
+}
+
+#team:hover{
+	border:10px solid #04cdff;
+}
+
+#latina{
+	max-width:100%;
+	border:10px solid rgba(14,67,80,0.9);
+	border-radius:5px 5px 5px;
+	-ms-border-radius:5px 5px 5px;
+	-moz-border-radius:5px 5px 5px;
+	-web-border-radius:5px 5px 5px;
+	-o-border-radius:5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px;
+	margin-left:15.2%;
+	margin-top:1%;
+}
+
+#latina:hover{
+	border:10px solid #04cdff;
+}
+
+.phe{
+	max-width:100%;
+	background:#fff;
+	width400px
+	text-indent: 1em;
+	padding:1%;
+	border-radius:5px 5px 5px;
+	-ms-border-radius:5px 5px 5px;
+	-moz-border-radius:5px 5px 5px;
+	-web-border-radius:5px 5px 5px;
+	-o-border-radius:5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px;
+	margin-left:38%;
+}
+
+.pho{
+	max-width:100%;
+	background:#fff;
+	width:150px;
+	text-indent: 1em;
+	padding:1%;
+	border-radius:5px 5px 5px;
+	-ms-border-radius:5px 5px 5px;
+	-moz-border-radius:5px 5px 5px;
+	-web-border-radius:5px 5px 5px;
+	-o-border-radius:5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px;
+	margin-left:41.2%
+	
+}
+
+#state{
+	margin-left:29%;
+}
+
+
+
+/* =Media Queries
+=======================================================================*/
+
+/*Tablet Portrait size to standard 1200 (devices and browsers)*/
+@media screen and (min-width:768px ) and ( max-width:1199px ){
+
+}
+
+/*Mobile Landscape size to Tablet Portrait(devices and browsers)*/
+@media only screen and (min-width:480px) and (max-width:767px){
+
+}
+
+/*Mobile Portrait size to Mobile Landscape size(devices ands browsers)*/
+@media only screen and (max-width:479px){
+
 }
 
 
